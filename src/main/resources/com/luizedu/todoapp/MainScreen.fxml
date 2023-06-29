@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.luizedu.todoapp.controller.MainController"
+>
+    <VBox id="tool-bar">
+        <HBox id="title-container">
+            <ImageView fx:id="tickView"/>
+            <Label text="TodoApp" id="tool-bar-title" fx:id="toolBarTitle"/>
+        </HBox>
+        <Label text="Anote tudo, não esqueça nada" id="tool-bar-sub-title"/>
+    </VBox>
+    <HBox></HBox>
+</VBox>

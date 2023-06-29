@@ -1,0 +1,26 @@
+#tool-bar {
+    -fx-background-color: #009966;
+    -fx-padding: 30px 40px;
+    -fx-spacing: 10px;
+}
+
+#tool-bar Label {
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+    -fx-font-family: 'Segoe UI';
+}
+
+#tool-bar #title-container {
+    -fx-alignment: center-left;
+    -fx-spacing: 10px;
+}
+
+#tool-bar #title-container #tool-bar-title {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-spacing: 10px;
+}
+
+#tool-bar #tool-bar-sub-title {
+    -fx-font-size: 14px;
+}
