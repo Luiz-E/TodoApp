@@ -1,3 +1,6 @@
+Label {
+    -fx-font-family: 'Segoe UI';
+}
 #tool-bar {
     -fx-background-color: #009966;
     -fx-padding: 30px 40px;
@@ -7,7 +10,6 @@
 #tool-bar Label {
     -fx-text-fill: #FFFFFF;
     -fx-alignment: center;
-    -fx-font-family: 'Segoe UI';
 }
 
 #tool-bar #title-container {
@@ -23,4 +25,24 @@
 
 #tool-bar #tool-bar-sub-title {
     -fx-font-size: 14px;
+}
+
+#grid-pane {
+    -fx-background-color: #f2f2f2;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding: 10px;
+}
+
+#grid-pane > * {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #929292;
+    -fx-padding: 5px 10px;
+    -fx-alignment: center;
+}
+
+#grid-pane HBox Label {
+    -fx-text-fill: #009966;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
 }

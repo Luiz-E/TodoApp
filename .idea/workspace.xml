@@ -4,22 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238fa252-b00a-4077-ab87-ea86b3bc475b" name="Changes" comment="Create project">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="238fa252-b00a-4077-ab87-ea86b3bc475b" name="Changes" comment="Main Screen fxml and css">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/controller/AddProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp/AddProject.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/add.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp/MainScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp/MainScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp/MainScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +61,7 @@
       <module name="TodoApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luizedu.todoapp.controller.*" />
+          <option name="PATTERN" value="com.luizedu.todoapp.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +92,80 @@
       <option name="project" value="LOCAL" />
       <updated>1688073143542</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="encoding">
+      <option name="closed" value="true" />
+      <created>1688078145471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688078145471</updated>
+    </task>
+    <task id="LOCAL-00003" summary="config files">
+      <option name="closed" value="true" />
+      <created>1688078175508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688078175508</updated>
+    </task>
+    <task id="LOCAL-00004" summary="config files">
+      <option name="closed" value="true" />
+      <created>1688078183364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688078183364</updated>
+    </task>
+    <task id="LOCAL-00005" summary="images">
+      <option name="closed" value="true" />
+      <created>1688078192007</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688078192007</updated>
+    </task>
+    <task id="LOCAL-00006" summary="files were moved and edited to add main screen">
+      <option name="closed" value="true" />
+      <created>1688078302436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688078302436</updated>
+    </task>
+    <task id="LOCAL-00007" summary="files were moved and edited to add main screen">
+      <option name="closed" value="true" />
+      <created>1688078310541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688078310541</updated>
+    </task>
+    <task id="LOCAL-00008" summary="files were moved and edited to add main screen">
+      <option name="closed" value="true" />
+      <created>1688078323357</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688078323357</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Main Screen fxml and css">
+      <option name="closed" value="true" />
+      <created>1688078333959</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688078333959</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create project" />
+    <MESSAGE value="encoding" />
+    <MESSAGE value="config files" />
+    <MESSAGE value="images" />
+    <MESSAGE value="files were moved and edited to add main screen" />
+    <MESSAGE value="Main Screen fxml and css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main Screen fxml and css" />
   </component>
 </project>

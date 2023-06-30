@@ -5,6 +5,10 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.Pane?>
 <VBox xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.luizedu.todoapp.controller.MainController"
 >
@@ -15,5 +19,24 @@
         </HBox>
         <Label text="Anote tudo, não esqueça nada" id="tool-bar-sub-title"/>
     </VBox>
-    <HBox></HBox>
+    <GridPane fx:id="gridPane" id="grid-pane" VBox.vgrow="ALWAYS">
+            <HBox GridPane.columnIndex="0" GridPane.rowIndex="0">
+                <Label text="Projetos"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <ImageView fx:id="addProject" onMouseClicked="#handleAddProject" />
+            </HBox>
+            <HBox GridPane.columnIndex="1" GridPane.rowIndex="0" >
+                <Label text="Tarefas"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <ImageView fx:id="addTask"/>
+            </HBox>
+            <ListView GridPane.columnIndex="0" GridPane.rowIndex="1">
+                <Label>Item 1</Label>
+                <Label>Item 2</Label>
+                <Label>Item 3</Label>
+            </ListView>
+            <Pane GridPane.columnIndex="1" GridPane.rowIndex="1">
+
+            </Pane>
+    </GridPane>
 </VBox>
