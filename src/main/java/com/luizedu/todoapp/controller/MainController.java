@@ -24,6 +24,7 @@ public class MainController implements Initializable {
     public ImageView addTask;
 
     private AddProjectController addProjectController;
+    private AddTaskController addTaskController;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -33,12 +34,19 @@ public class MainController implements Initializable {
         setAddImages();
 
         addProjectController = new AddProjectController();
-        handleAddProject();
+        addTaskController = new AddTaskController();
     }
     @FXML
     private void handleAddProject() {
         if (addProjectController != null) {
             addProjectController.init();
+        }
+    }
+
+    @FXML
+    private void handleAddTask() {
+        if (addTaskController != null) {
+            addTaskController.init();
         }
     }
 

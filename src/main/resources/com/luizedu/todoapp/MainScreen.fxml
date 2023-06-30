@@ -28,7 +28,7 @@
             <HBox GridPane.columnIndex="1" GridPane.rowIndex="0" >
                 <Label text="Tarefas"/>
                 <Region HBox.hgrow="ALWAYS"/>
-                <ImageView fx:id="addTask"/>
+                <ImageView fx:id="addTask" onMouseClicked="#handleAddTask"/>
             </HBox>
             <ListView GridPane.columnIndex="0" GridPane.rowIndex="1">
                 <Label>Item 1</Label>

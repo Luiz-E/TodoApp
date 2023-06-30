@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.luizedu.todoapp.controller.AddProjectController"
+>
+    <HBox id="tool-bar">
+        <Label text="Tarefa" id="tool-bar-title"/>
+        <Region HBox.hgrow="ALWAYS"/>
+        <ImageView fx:id="checkView"/>
+    </HBox>
+    <VBox id="form">
+        <Label text="Nome"/>
+        <TextField/>
+        <Label text="Descrição"/>
+        <TextArea/>
+        <Label text="Prazo"/>
+        <TextField/>
+        <Label text="Notas"/>
+        <TextArea/>
+    </VBox>
+</VBox>

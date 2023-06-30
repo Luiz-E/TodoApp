@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238fa252-b00a-4077-ab87-ea86b3bc475b" name="Changes" comment="Main Screen fxml and css">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/controller/AddProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp/AddProject.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/add.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="238fa252-b00a-4077-ab87-ea86b3bc475b" name="Changes" comment="Add project screen">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/controller/AddTaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp/AddTask.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizedu/todoapp/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp/MainScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp/MainScreen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +46,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/luizedu/Documentos/Cursos/TodoApp/src/main/resources/com/luizedu/todoapp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/luizedu/todoapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luizedu.todoapp.controller" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luizedu.todoapp.main.Main" />
@@ -156,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688078333959</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="MainScreen finished">
+      <option name="closed" value="true" />
+      <created>1688087310901</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688087310901</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add project screen">
+      <option name="closed" value="true" />
+      <created>1688087320350</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688087320350</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +187,8 @@
     <MESSAGE value="images" />
     <MESSAGE value="files were moved and edited to add main screen" />
     <MESSAGE value="Main Screen fxml and css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Screen fxml and css" />
+    <MESSAGE value="MainScreen finished" />
+    <MESSAGE value="Add project screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project screen" />
   </component>
 </project>
